@@ -1,17 +1,17 @@
 # Protein Sequence Analyzer
 
-A beginner-friendly Python tool for analyzing protein sequences and calculating basic physicochemical properties.
+A Python-based tool for analysing protein sequences and calculating basic physicochemical properties.
 
 ## Features
 
 * Protein sequence validation
 * FASTA and plain-text sequence input
 * Multiline FASTA support
-* Amino acid counting and composition
-* Protein sequence length
+* Amino acid counting and composition analysis
+* Protein sequence length calculation
 * Molecular weight estimation
 * Isoelectric point (pI) estimation
-* Average hydropathy index
+* Average hydropathy index calculation
 * Hydrophobic/hydrophilic interpretation
 * Amino acid group composition
 * Acidic/basic charge tendency
@@ -20,7 +20,7 @@ A beginner-friendly Python tool for analyzing protein sequences and calculating 
 
 Make sure Python 3 is installed.
 
-Run:
+Run the program:
 
 ```bash
 python main.py
@@ -30,7 +30,7 @@ Enter a protein sequence in plain-text or FASTA format.
 
 Press **Enter on an empty line** when you have finished entering the sequence.
 
-### Example Input
+## Example Input
 
 ```text
 >my_protein
@@ -38,7 +38,7 @@ ACDEFGHIKL
 MNPQRSTVWY
 ```
 
-### Example Output
+## Example Output
 
 ```text
 Valid protein sequence!
@@ -63,12 +63,12 @@ Acidic: 2 (10.00%)
 Basic: 3 (15.00%)
 ```
 
-## Technologies Used
+## Technologies
 
 * Python 3
-* Dictionaries
-* Sets and lists
 * Functions
+* Dictionaries
+* Lists and sets
 * Loops
 * Conditional statements
 * Basic numerical calculations
@@ -76,7 +76,7 @@ Basic: 3 (15.00%)
 
 ## What I Learned
 
-This project helped me practice Python programming while applying concepts from bioinformatics and molecular biology.
+This project provided practice in Python programming while applying concepts from bioinformatics and molecular biology.
 
 Key concepts included:
 
@@ -92,9 +92,9 @@ Key concepts included:
 
 ## Notes
 
-The physicochemical calculations in this project use simplified models and approximate values for educational purposes. They are not intended to replace specialized bioinformatics tools.
+The physicochemical calculations use simplified models and approximate values for educational purposes. They are not intended to replace specialized bioinformatics tools.
 
-## Project
+## Project Series
 
 Part of a series of progressively more advanced bioinformatics projects.
 
